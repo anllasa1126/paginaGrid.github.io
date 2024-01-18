@@ -1,0 +1,61 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo img {
+    width: fit-content;
+    height: fit-content;
+    object-fit: cover;
+}
+
+
+
+header,
+footer {
+    background-color: rgb(244, 244, 7);
+    color: black;
+    text-align: center;
+    padding: 12px 0;
+
+}
+
+.grid-container {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: grey;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.card {
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    margin: 10px;
+
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
